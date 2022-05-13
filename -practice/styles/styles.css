@@ -3,12 +3,11 @@
     line-height: 1.5em;
 }
 header {
-
     display: block;
     width: 80%;
     margin: 0 auto;
     text-align: center;
-    color: rgb(250, 245, 245);
+    color: rgb(254, 253, 253);
 }
 img {
     display: block;
@@ -16,47 +15,31 @@ img {
     margin: 0 auto;
     text-align: center;
 }
- main p {
-        display: block;
-        width: 80%;
-        margin: 0 auto;
-        text-align: center;
-    }
-    ol {
+main p {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+ main p2 {
         display: block;
         width: 40%;
         margin: 0 auto;
         text-align: left;
-
+    }
+    main p3 {
+        display: block;
+        width: 20%;
+        margin: 0 auto;
+        text-align: center;
+        color: rgb(254, 253, 253);
+    
 a {
     font-size: 1.5em;
 }
 
-h1 {
-    text-align: center;
 }
+
 nav {
     text-align: center;
 }
-nav, header {
-    color: rgb(250, 245, 245);
-
-
-    footer {
-        background-color: steelblue;
-        color: white;
-        text-align: center;
-}
-
-nav, footer {
-    background-color: steelblue;
-    color: white;
-}
-footer p {
-    font-size: 20px;
-    margin: 20px auto;
-}
-       
-     a:hover {
-            background-color: black;
-            color: steelblue;
