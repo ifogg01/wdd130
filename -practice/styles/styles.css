@@ -2,20 +2,32 @@
     font-size: 1.5em;
     line-height: 1.5em;
 }
-#active {
-    background-color: white;
-    color: steelblue;
-}
-img {
+header {
+
     display: block;
     width: 80%;
     margin: 0 auto;
+    text-align: center;
+    color: rgb(250, 245, 245);
 }
-main p {
-    width: 80%;
-    margin: 50px auto;
+img {
+    display: block;
+    width: 20%;
+    margin: 0 auto;
     text-align: center;
 }
+ main p {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    ol {
+        display: block;
+        width: 40%;
+        margin: 0 auto;
+        text-align: left;
+
 a {
     font-size: 1.5em;
 }
@@ -26,10 +38,14 @@ h1 {
 nav {
     text-align: center;
 }
-footer {
-    background-color: steelblue;
-    color: white;
-    text-align: center;
+nav, header {
+    color: rgb(250, 245, 245);
+
+
+    footer {
+        background-color: steelblue;
+        color: white;
+        text-align: center;
 }
 
 nav, footer {
@@ -40,7 +56,7 @@ footer p {
     font-size: 20px;
     margin: 20px auto;
 }
-
-a:hover {
-    background-color: white;
-    color: steelblue;
+       
+     a:hover {
+            background-color: black;
+            color: steelblue;
