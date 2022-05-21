@@ -9,27 +9,38 @@ content {
 
 content {
    margin: 0 auto;
-
    margin-left: auto;
    margin-right: auto;
    margin-top: 0;
    margin-bottom: 0;
  }
 
-nav {
+nav a {
+    color: #327D52;
     text-align: center;
     text-decoration: none;
     font-size: 25px;
-    margin-bottom: 5px;
+    font-family: oswald, sans-serif;
+    font-size: 2em;
+    margin-top: 15px;
+    margin-left: 70px;
+    padding: 20px;
+    }
+    
+nav a:hover {
+    color: white;
 }
+
 #hero-msg h1 {
     text-align: center;
-    font-size: 35px;
+    font-size: 65px;
+    font-family: "Gravitas One", Helvetica;
 }
 
 #hero-msg h4 {
     text-align: center;
     font-size: 50px;
+    font-family: oswald, sans-serif;
 }
 
 .button-box {
@@ -39,63 +50,110 @@ nav {
 
 main section {
     text-align: center;
+    box-sizing: border-box;
 }
-
 
 body {
     background-color: #faf2e4; 
+    margin: 0;
+    padding: 0;
 }
-header {
-    background-color:#7DCCB6;
-}
-nav a:hover {
-        color: white;
-}
-.book{
-    background-color:#faf2e4; 
-    text-decoration: none;
-}
-.join{
-    background-color:#71C9DD;
-    text-decoration: none;
-}
-.book:hover{
-    color: #327D52;
-}
-.join:hover{
-    background-color:white;
-    color: #396E94;
-}
-#background{
-    background-color:#ECE0CA;
-}
-.msg{
-    background-color:#71C9DD;
-    font-size: 20px;
-}
-footer{
-    background-color:#7DCCB6;
+
+h2 {
+    margin: 10;
 }
 .msg h2{
     color: #396E94;
-    font-size: 50px;
+    font-size: 40px;
+    font-family: "Gravitas One", Helvetica;
+    padding: 30px;
 }
+
+header {
+    background-color:#7DCCB6;
+}
+
+.book, .join{
+    background-color: #327D52;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 12px 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 5px; 
+}
+
+
+.book:hover{
+    background-color: #d9c2a3;
+    color: #327D52;
+}
+
+.join:hover{
+    background-color: #d9c2a3;
+    color: #327D52;
+}
+
+#background{
+    background-color:#d9c2a3;;
+}
+
+.msg {
+    background-color:#71C9DD;
+    color: #396E94;
+    font-size: 25px;
+    font-family: oswald, 'Times New Roman', Times, serif;
+    line-height: 1.5em;
+    padding-bottom: 50px;
+}
+
+footer{
+    background-color:#7DCCB6;
+    padding: 50px;
+    margin-top: 200px;
+}
+
 footer h3{
     color: #396E94;
+    font-family: oswald, 'Times New Roman', Times, serif;
 }
 footer a{
     color: #396E94;
     text-decoration: none;
 }
+
 footer a:hover{
     color: white;
 }
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
+
 .logo {
-    width: 80px;
+    width: 100px;
+    padding: 20px;
 }
+
 #hero-img {
     width: 100%;
+}
+
+.social img{
+    padding-top: 15px;
+}
+.rivers-card{
+    margin: 200px;
+}
+.camping-card {
+    margin: 200px;
+}
+.rapids-card{
+    margin: 200px;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
 }

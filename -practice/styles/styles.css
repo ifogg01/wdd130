@@ -1,45 +1,37 @@
-.main-para {
-    font-size: 1.5em;
-    line-height: 1.5em;
-}
-header {
-    display: block;
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
-    color: rgb(254, 253, 253);
-}
-img {
-    display: block;
-    width: 20%;
-    margin: 0 auto;
-    text-align: center;
-}
-main p {
-    display: block;
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
-}
- main p2 {
-        display: block;
-        width: 40%;
-        margin: 0 auto;
-        text-align: left;
-    }
-    main p3 {
-        display: block;
-        width: 20%;
-        margin: 0 auto;
-        text-align: center;
-        color: rgb(254, 253, 253);
-    
-a {
-    font-size: 1.5em;
+#circles {
+    width: 100%;
+    height: 500px;
 }
 
+body{
+    background-color: gray;
 }
 
-nav {
-    text-align: center;
+#desk {
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    width: 400px;
+    border: 25px solid rgb(83, 81, 81);
 }
+
+#graphic {
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    width: 400px;
+    border: 25px solid rgb(83, 81, 81);
+}
+
+#person {
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    width: 400px;
+    border: 25px solid rgb(83, 81, 81);
