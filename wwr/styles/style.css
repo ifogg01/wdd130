@@ -103,9 +103,10 @@ header {
 .msg {
     background-color:#71C9DD;
     color: #396E94;
+    text-align: center;
     font-size: 25px;
     font-family: oswald, 'Times New Roman', Times, serif;
-    line-height: 1.5em;
+    line-height: 1.0em;
     padding-bottom: 50px;
 }
 
