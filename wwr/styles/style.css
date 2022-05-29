@@ -65,6 +65,7 @@ nav {
     text-align: center;
     color: #396E94;
     font-size: 50px;
+    line-height: 1.5em;
     font-family: oswald, sans-serif;
 }
 
@@ -95,6 +96,7 @@ h2 {
 .msg h2{
     color: #396E94;
     font-size: 40px;
+    line-height: 1.2em;
     font-family: "Gravitas One", Helvetica;
     padding: 30px;
 }
