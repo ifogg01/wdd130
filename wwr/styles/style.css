@@ -77,6 +77,12 @@ nav {
 .button-box {
     text-align: center;
     font-size: 25px;
+    
+}
+.button-box1 {
+    text-align: center;
+    font-size: 5px;
+    
 }
 
 main section {
@@ -131,7 +137,21 @@ header {
     color: #327D52;
 }
 
+.thx{
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 2px px;
+   
+    border-radius: 5px; 
+}
 
+
+.thx:hover{
+    background-color: powderblue;
+    color: white;
+}
 .join:hover{
     background-color: #d9c2a3;
     color: #327D52;
@@ -420,6 +440,7 @@ form {
     padding: 1em;
     border: 1px solid #CCC;
     border-radius: 1em;
+    box-shadow: 5px 5px 10px #6f7364;
   }
   
   ul {
