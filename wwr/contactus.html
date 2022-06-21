@@ -9,87 +9,74 @@
     <title>Contact Us</title>
     <link href="https://fonts.googleapis.com/css2?family=Gravitas+One&family=Oswald:wght@300&display=swap"
         rel="stylesheet">
-    <style>
 
-    </style>
 </head>
-
 <body>
+<header>
 
-    <header>
+    <a id="logo_link" href="index.html">
+        <img class="logo" src="images/logo.png" alt="Dry Oar Logo">
+    </a>
+    <nav>
+        <ul class="nav_link">
+            <li><a id="return" href="index.html">Return</a></li>
+        </ul>
+    </nav>
+</header>
 
-        <a id="logo_link" href="index.html">
-            <img class="logo" src="images/logo.png" alt="Dry Oar Logo">
+<h1 class="home-title">Contact Us</h1>
+
+<div id="feedback"></div>
+<form action="/my-handling-form-page" method="post">
+    <div>
+        <label for="fname">First name *: </label>
+        <input id="fname" name="fname" type="text" required>
+        <span></span>
+    </div>
+    <div>
+        <label for="lname">Last name *: </label>
+        <input id="lname" name="lname" type="text" required>
+        <span></span>
+    </div>
+
+    <div class="emailBox">
+        <label for="emailAddress">Your e-mail address</label>
+
+        <input id="emailAddress" type="email" required list="defaultEmails" size="64" maxlength="256" multiple>
+        <span></span>
+
+    </div><br>
+
+    <div class="messageBox">
+        <label for="message">Request</label><br>
+        <textarea id="message" cols="80" rows="8" required placeholder="What is your message"></textarea>
+    </div>
+    <div class="button-box">
+        <a class="thx" href="thankyou.html">Submit</a>
+    </div>
+</form>
+
+
+
+<footer>
+    <div class="footclass">
+        <h3>Dry Oar &copy; 2022 - Isaac Fogg</h3>
+        <h3><a href="site-plan-rafting.html">Site Plan</a></h3>
+        <h3><a href="contactus.html">Contact Us</a></h3>
+    </div>
+    <div class="social1">
+        <a href="https://lnt.org/" target="_blank">
+            <img src="images/lnt.png" alt="lnt icon">
         </a>
-        <nav>
-            <ul class="nav_link">
-                <li><a id="return" href="index.html">Return</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div id="hero">
-        <div id="hero-box">
-
-       
-        <section id="hero-msg">
-            <h1 class="home-title">Contact Us</h1>
-
-            <div id="feedback"></div>
-            <form action="/my-handling-form-page" method="post">
-                <div>
-                    <label for="fname">First name *: </label>
-                    <input id="fname" name="fname" type="text" required>
-                    <span></span>
-                </div>
-                <div>
-                    <label for="lname">Last name *: </label>
-                    <input id="lname" name="lname" type="text" required>
-                    <span></span>
-                </div>
-
-                <div class="emailBox">
-                    <label for="emailAddress">Your e-mail address</label><br>
-                    <input id="emailAddress" type="email" required list="defaultEmails" size="64" maxlength="256"
-                        multiple>
-                    <span></span>
-
-                </div>
-
-                <div class="messageBox">
-                    <label for="message">Request</label><br>
-                    <textarea id="message" cols="80" rows="8" required placeholder="What is your message"></textarea>
-                </div>
-
-                <div class="button-box">
-                    <a class="thx" href="thankyou.html">Submit</a>
-                </div>
-            </form>
+        <a href="https://www.fs.usda.gov/main/ipnf/home" target="_blank">
+            <img src="images/usfs.png" alt="usfs icon">
+        </a>
+        <a href="https://visitidaho.org/" target="_blank">
+            <img src="images/vi.png" alt="idaho icon">
+        </a>
+    </div>
 
 
-
-            <footer>
-                <div class="footclass">
-                    <h3>Dry Oar &copy; 2022 - Isaac Fogg</h3>
-                    <h3><a href="site-plan-rafting.html">Site Plan</a></h3>
-                    <h3><a href="contactus.html">Contact Us</a></h3>
-                </div>
-                <div class="social1">
-                    <a href="https://lnt.org/" target="_blank">
-                        <img src="images/lnt.png" alt="lnt icon">
-                    </a>
-                    <a href="https://www.fs.usda.gov/main/ipnf/home" target="_blank">
-                        <img src="images/usfs.png" alt="usfs icon">
-                    </a>
-                    <a href="https://visitidaho.org/" target="_blank">
-                        <img src="images/vi.png" alt="idaho icon">
-                    </a>
-                </div>
-
-
-            </footer>
-
-
-
+</footer>
 </body>
-
 </html>
