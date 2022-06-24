@@ -46,12 +46,12 @@ header {
   
    
 }
-.nav_links, li, a{
+.nav_links, a{
     transition: all 0.3s ease 0s;
     color: #71C9DD;
 
 }
-.nav_links, li, button, a:hover{
+.nav_links,  button, a:hover{
     color: azure;
 
 }
@@ -68,6 +68,10 @@ button{
    
 }
 .button1:hover{
+    box-shadow: 0 5px 10px rgba(0,0,0,.5);
+    transform: scale(.95);
+}
+.button2:hover{
     box-shadow: 0 5px 10px rgba(0,0,0,.5);
     transform: scale(.95);
 }
@@ -109,7 +113,6 @@ body{
 .vid{
     margin-top: 100px;
     margin-bottom: 50px;
-   
     display:flex;
     align-content:center;
     justify-content: center;
@@ -136,6 +139,20 @@ body{
     border-radius: 500px;
     transition-duration: 0.60s; 
     background: url(../images/dudedad.jpg);
+    background-size:cover;
+
+}
+.button2{
+    padding: 0;
+    margin:auto;
+    width: 200px;
+    height: 200px;
+    top: 40px;
+    left: -280px;
+    border: 3px solid #555;
+    border-radius: 500px;
+    transition-duration: 0.60s; 
+    background: url(../images/dadjoke.png);
     background-size:cover;
 
 }
@@ -220,6 +237,147 @@ body{
     font-size: 20px;   
 }
 
+
+
+
+
+.maintitle{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #226d35;
+    font-size: 1000px;
+    font-size: 2.0em;
+    font-family: "Lemon", Arial, Helvetica, sans-serif; 
+    text-shadow: 5px 5px 10px #6f7364;
+}
+
+.subheading{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    color: #226d35;
+    font-size: 100px;
+    font-size: 2.0em;
+    font-family: "Lemon", Arial, Helvetica, sans-serif; 
+    text-shadow: 5px 5px 10px #6f7364;
+}
+
+.djlogo{
+    text-align:left;
+    font-size: 25px;
+    text-shadow: 5px 5px 10px #6f7364;
+    justify-content:first baseline;
+    font-family: "Lemon", Arial, Helvetica, sans-serif;
+    color: #396E94;
+
+}
+
+.sec1{
+    padding: 5%;
+    align-content: center;
+    align-items: center;
+}
+.list1{
+    color: #226d35;
+    text-align:right;
+    font-family:"Lemon", Arial, Helvetica, sans-serif;
+    margin-right: 1%;
+    margin-left: 28%;
+    margin-top: -88px;
+    font-size: 20px;
+    font-size: 0.9em;
+    padding-left: 20px;
+    text-shadow: 1px 2px 8px white;
+    justify-content:right;    
+    list-style: none;
+}
+.listt{
+    color: #226d35;
+    text-align:right;
+    font-family:"Lemon", Arial, Helvetica, sans-serif;
+    margin-right: 5.8%;
+    margin-left: 20%;
+    margin-top: -80px;
+    font-size: 20px;
+    font-size: 1.45em;
+    padding-left: 20px;
+    text-shadow: 1px 2px 8px white;
+    justify-content:right;    
+    list-style: none;
+}
+
+.listt2{
+    color: #226d35;
+    text-align:left;
+    font-family:"Lemon", Arial, Helvetica, sans-serif;
+    margin-right: 5.8%;
+    margin-left: 20%;
+    margin-top: -80px;
+    font-size: 20px;
+    font-size: 1.5em;
+    padding-left: 20px;
+    text-shadow: 1px 2px 8px white;
+    justify-content:right;    
+    list-style: none;
+}
+
+.lawndad{
+    box-shadow: 8px 8px 12px #6f7364;
+    text-shadow: 1px 2px 8px white;
+    justify-content:right;    
+    margin-right:25.7%;
+    margin-bottom: 100px;
+}
+
+.middle{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 15%;
+    
+}
+
+.grilldad{
+    float: left;
+    margin-right: 25%;
+    margin-bottom: -70px;
+}
+.brk3{
+    color: #226d35;
+    font-family:"Lemon", Arial, Helvetica, sans-serif;
+    margin-top: -100px;
+    text-shadow: 1px 2px 8px white;
+    font-weight: 900;   
+    list-style: none;
+}
+
+.sec2{
+    padding: 5%;
+    text-align: center;
+    justify-content: space-around;
+    margin-right: 30%;
+    font-size: 35px;
+    font-size: 1.75em;
+    display:inline-flex;
+}
+
+
+.listt3{
+    color: #226d35;
+    text-align:left;
+    font-family:"Lemon", Arial, Helvetica, sans-serif;
+    margin-right: 5.8%;
+    margin-left:2%;
+    margin-top: -80px;
+    font-size: 20px;
+    font-size: 1.45em;
+    padding-left: 20px;
+    text-shadow: 1px 2px 8px white;
+    justify-content:left;    
+}
+
+
 footer{
     background-color:#7DCCB6;
     padding: 25px 50px;
@@ -232,7 +390,7 @@ footer{
 
 footer h3{
     color: #396E94;
-    font-family: oswald, 'Times New Roman', Times, serif;
+    font-family: sans-serif,Arial, Helvetica;
 }
 footer a{
     color: #396E94;
@@ -242,3 +400,4 @@ footer a{
 footer a:hover{
     color: white;
 }
+
