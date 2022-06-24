@@ -90,6 +90,9 @@ body{
    background-size: cover;
    
 }
+.middle{
+    position: relative;
+}
 
 .clm1{
     float: left;   
@@ -327,7 +330,7 @@ body{
     box-shadow: 8px 8px 12px #6f7364;
     text-shadow: 1px 2px 8px white;
     justify-content:right;    
-    margin-right:25.7%;
+    margin-right:auto;
     margin-bottom: 100px;
 }
 
