@@ -384,20 +384,33 @@ body{
     margin-bottom: -70px;
 }
 .brk3{
-   
-    padding: 2%;
+    font-family:"Lemon", Arial, Helvetica, sans-serif;
+    color: #226d35;
+    text-shadow: 5px 5px 10px white;
+    display:contents;
+    padding: 3%;
+    font-size: 1.0em;
     margin-left: 25%;
     margin-bottom: 10px;
     align-content: center;
     align-items: center;
    
     }
-
-
+    .brk3-3{
+       
+        padding: 2%;
+        margin-left: 25%;
+        margin-bottom: 10px;
+        align-content: center;
+        align-items: center;
+       
+        }
 
 .sec2{
+    font-family:"Lemon", Arial, Helvetica, sans-serif;
+    color: #226d35;
     padding: 5%;
-    text-align: center;
+    text-align: right;
     justify-content: space-around;
     margin-right: 30%;
     font-size: 35px;
