@@ -6,6 +6,7 @@
 }
 
 
+
 li, a, button{
     font-family: "Boogaloo", Arial, Helvetica, sans-serif;
     text-decoration: none;
@@ -47,8 +48,26 @@ header {
    
 }
 .nav_links, a{
+
+
     transition: all 0.3s ease 0s;
     color: #71C9DD;
+
+        font-size: 20px;
+        color: #fff;
+        text-align: center;
+        animation: glow 1s ease-in-out infinite alternate;
+    }
+
+      @-webkit-keyframes glow {
+        from {
+          text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00e66f, 0 0 40px #00e66f, 0 0 50px #00e66f, 0 0 60px #00e66f, 0 0 70px #00e66f;
+        }
+        
+        to {
+          text-shadow: 0 0 20px #fff, 0 0 30px #05f2fa, 0 0 40px #05f2fa, 0 0 50px #05f2fa, 0 0 60px #05f2fa, 0 0 70px #05f2fa, 0 0 80px #05f2fa;
+        }
+      
 
 }
 .nav_links,  button, a:hover{
@@ -67,13 +86,20 @@ button{
     box-shadow: 2px 2px 10px #6f7364;
    
 }
+
+button:hover{
+    box-shadow: 0 5px 10px rgba(0,0,0,.5);
+    transform: scale(1.15);
+}
+  
+
 .button1:hover{
     box-shadow: 0 5px 10px rgba(0,0,0,.5);
-    transform: scale(.95);
+    transform: scale(.85); 
 }
 .button2:hover{
     box-shadow: 0 5px 10px rgba(0,0,0,.5);
-    transform: scale(.95);
+    transform: scale(.85);
 }
 
 nav a {
@@ -98,7 +124,7 @@ body{
 
 .clm1{
     float: left;   
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 10px 12px 10px #6f7364;
     margin-right: 25px;
     padding-left: 10px;
     padding-bottom: 0%;
@@ -188,7 +214,9 @@ body{
     padding-bottom: 0%;
     margin-top: 100px;
     position:relative;
-
+}
+1dad1{
+    box-shadow: 10px 12px 10px #6f7364;
 }
 .msg h1{
     display:flex;
@@ -413,7 +441,7 @@ body{
     .brk3-3{
        
         padding: 2%;
-        margin-left: 25%;
+        margin-left: 30%;
         margin-bottom: 10px;
         align-content: center;
         align-items: center;
@@ -462,12 +490,21 @@ body{
     margin-top: 100px;
     margin-left: 10%;
     margin-bottom: 50px;
-    display:inline-flex;
-    align-content:center;
-    justify-content: center;
-     
+    display: inline-flex;
 }
 
+.wearpic{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.at-1{
+    margin-top: 100px;
+    margin-left: 30%;
+    margin-bottom: 50px;
+    display: inline-flex;
+  
+}
 
 .alistt2{
     color: #226d35;
