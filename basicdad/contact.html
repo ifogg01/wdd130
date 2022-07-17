@@ -12,76 +12,72 @@
 
 </head>
 
-<body>
 
 
-    <header>
-        <a id="logo_link" href="index.html"><img class="logo" src="images/basicdad.png" alt="Basic Logo"></a><br>
-        <div class="hm">
-            <h1>Embrace</h1>
-        </div>
-        <div class="hm">
-            <h1>the</h1>
-        </div>
-        <div class="hm">
-            <h1>Basic</h1>
-        </div>
-        <nav>
-            <ul class="nav_links">
-                <li><a id="list" href="dadisms.html">"Dad-isms"</a></li>
-                <li><a id="cloth" href="dadwear.html">Dad Fashion</a></li>
-            </ul>
-        </nav>
-        <button type="button" onclick="location.href='contact.html'">Contact</button>
-    </header>
+<header>
+    <a id="logo_link" href="index.html"><img class="logo" src="images/basicdad.png" alt="Basic Logo"></a><br>
+    <div class="hm">
+        <h1>Embrace</h1>
+    </div>
+    <div class="hm">
+        <h1>the</h1>
+    </div>
+    <div class="hm">
+        <h1>Basic</h1>
+    </div>
+    <nav>
+        <ul class="nav_links">
+            <li><a id="list" href="dadisms.html">"Dad-isms"</a></li>
+            <li><a id="cloth" href="dadwear.html">Dad Fashion</a></li>
+        </ul>
+    </nav>
+    <button type="button" onclick="location.href='contact.html'">Contact</button>
+</header>
 
 
-    <div class="subheading">
-        <h5>We would love to hear your feedback. For Questions, Comments, or Concerns please send us a
-            message.<br><br>CONTACT US <br><br></h5>
+<div class="subheading">
+    <h5>We would love to hear your feedback. For Questions, Comments, or Concerns please send us a
+        message.<br><br>CONTACT US <br><br></h5>
+</div>
+
+
+
+<div id="feedback"></div>
+<form action="/my-handling-form-page" method="post">
+    <div>
+        <h3><label for="fname">First name: </label></h3>
+        <input id="fname" name="fname" type="text" required>
+        <span></span>
+    </div>
+    <div>
+        <h3><label for="lname">Last name: </label></h3>
+        <input id="lname" name="lname" type="text" required>
+        <span></span>
     </div>
 
+    <div class="emailBox">
+        <h3><label for="emailAddress">Your e-mail address:</label></h3>
+        <input id="emailAddress" name="email" type="email"  size="80" maxlength="100" required>
+        <span></span>
 
 
-    <div id="feedback"></div>
-    <form action="/my-handling-form-page" method="post">
-        <div>
-            <h3><label for="fname">First name: </label></h3>
-            <input id="fname" name="fname" type="text" required>
-            <span></span>
-        </div>
-        <div>
-            <h3><label for="lname">Last name: </label></h3>
-            <input id="lname" name="lname" type="text" required>
-            <span></span>
-        </div>
+    </div><br>
 
-        <div class="emailBox">
-            <h3><label for="emailAddress">Your e-mail address:</label></h3>
+    <div class="messageBox">
+        <h3><label for="message">Comments:</label><br></h3>
+        <textarea id="message" cols="500" rows="10" required placeholder="What is your message"></textarea>
 
-            <input id="emailAddress" type="email" required list="defaultEmails" size="80" maxlength="100" multiple>
-            <span></span>
-
-        </div><br>
-
-        <div class="messageBox">
-            <h3><label for="message">Comments:</label><br></h3>
-            <textarea id="message" cols="500" rows="10" required placeholder="What is your message"></textarea>
-            
-        </div>
-    
-        <div class="button-box">
-            <a class="thx" href="thankyou.html">Submit</a>
-        </div>
-    </form>
-
-    <section class="btmmsg">
-        <h3>For MORE great Dad content<br> Please visit some of my favorite Dad sites listed below</h3>
-    </section>
     </div>
-    </main>
 
-</body>
+    <div class="button-box">
+        <a class="thx" href="thankyou.html">Submit</a>
+    </div>
+</form>
+
+<section class="btmmsg">
+    <h3>For MORE great Dad content<br> Please visit some of my favorite Dad sites listed below</h3>
+</section>
+
 
 
 <div>
@@ -115,5 +111,6 @@
         </div>
     </footer>
 </div>
+
 
 </html>
