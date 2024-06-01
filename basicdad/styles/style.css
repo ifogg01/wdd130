@@ -39,6 +39,7 @@ header {
 .buttonfix:hover{
     transform: scale(.95);
     transition: all 1.0s ease 0s;
+    
    
      
 }
@@ -194,32 +195,33 @@ body{
 
 }
 #dudedad{    
+    display: inline-flex;
     align-content: center;
-    justify-content: center;
     height: 100px;
     width: 100px;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 15px 5px 10px #6f7364;
 }
+
+
 .dudetitle{
-    float:right;
-    display: block;
     color: #226d35;
+    display: inline;
     font-size: 50px;
-    line-height: .8em;
+    line-height: .5em;
     font-family:sans-serif, Helvetica;
     text-align: center;
-    margin-left: 50px;
-    margin-bottom: 10px;
+    margin-top: 5px;
     text-shadow: 5px 5px 10px #6f7364;
 }
 .famdad{
-    display: flex;
+    display:inline-flex;
     align-content: center;
-    justify-content:space-around;   
-    padding-left: 10px;
     padding-bottom: 0%;
-    margin-top: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
     position:relative;
+    box-shadow: 15px 12px 20px #6f7364;  
+    
 }
 
 .msg h1{
@@ -236,16 +238,14 @@ body{
 
 .btmmsg{
     display:block;
-    align-content: center;
-    justify-content:center;
+    align-content:space-around;
     color: #226d35;
     font-size: 25px;
     font-style: italic;
     line-height: 1.8em;
     font-family:"Lemon", sans-serif, Helvetica;
     text-align: center;
-    margin-top: 100px;
-    margin-bottom: 0;
+    margin-top: 300px;
     text-shadow: 1px 1px 10px #6f7364;
 }
 
